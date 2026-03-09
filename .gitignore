@@ -1,0 +1,20 @@
+# Python (Archivos temporales)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Entornos virtuales (Muy importante no subirlos)
+venv/
+env/
+ENV/
+
+# Variables de entorno (Contienen contraseñas o llaves secretas)
+.env
+
+# Bases de datos SQLite (Opcional, si no quieres subir la DB local)
+*.sqlite3
+instance/
+
+# VS Code
+.vscode/
